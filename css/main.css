@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-05 15:21:50
+ * @version $Id$
+ */
+ body{
+ 	line-height: 1.5;
+ 	background: #eeeeee;
+ }
+ img{
+ 	width: 100%;
+ 	height: auto;
+ }
+header{
+	height: 50px;
+	line-height: 50px;
+	background: #19a0f0;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.weui-msg__title,.g-notice .weui-msg__desc{
+	color: #fff;
+}
+.toolbar .picker-button,.weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{
+	color: #19a0f0;
+}
+.weui-btn_primary{
+	background: #19a0f0;
+}
+.weui-btn.weui-btn_primary:active{
+	background: #109bec;
+}
+ .weui-btn{
+ 	font-size: 16px;
+ 	line-height: 2.5;
+ }
+ .weui-cells{
+ 	font-size: 14px;
+ 	line-height: 1.27058824;
+ }
+ .weui-cell {
+	padding:14px 15px;
+ }
+.weui-msg__desc.text-left,.g-notice .weui-footer__text.text-left{
+	text-align: left;
+}
+.g-notice{
+	background: #fff;
+}
+.g-notice .weui-msg__desc .red-txt{
+ 	color: #e8d74f;
+ }
+ .g-notice .weui-btn_primary{
+ 	background: #ff9a14;
+ 	/*border:1px solid #fff;*/
+ }
+ .g-notice .weui-btn_primary:active{
+ 	background: rgba(255, 154, 20,0.95);
+ }
+.weui-btn.weui-btn_default{
+ 	background: #559af7;
+    border: 1px solid rgba(255,255,255,0.5);
+    color: #fff;
+ }
+ .weui-btn.weui-btn_default:active{
+ 	background: #5098f9;
+ }
+ .g-notice .weui-btn-area{
+ 	padding: 0 10px;
+ }
+.g-notice .weui-footer__text{
+ 	padding: 0 20px;
+ }
+
+.g-infos .weui-msg .weui-cells{
+	text-align: left;
+}
+.g-infos .weui-msg__text-area{
+	padding: 0;
+}
+.g-infos .weui-agree__checkbox,.g-infos .weui-agree__text{
+	color: #666;
+}
+label.check-type{
+	/*width: 33.33333333%;
+	float: left;*/
+	width: 80px;
+	margin-right: 10px;
+}
+
+/*信息*/
+.g-infos .weui-msg{
+	padding-top: 0;
+}
+.g-infos .weui-msg .weui-label{
+	color: #999;
+}
+.start-end{
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	/*height: 136px;
+	background: url(../images/bg-2.jpg) no-repeat;
+	background-size: cover;*/
+}
+.start-end .txt{
+	position: absolute;
+    z-index: 22;
+    top: 50%;
+    margin-top: -30px;
+    width: 100%;
+    text-align: center;
+}
+.start-end .input input{
+	width: 100px;
+	text-align: center;
+	background: none;
+}
+.start-end img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.tip{
+	font-size: 14px;
+	background: #f4e5c5;
+}
+.tip img{
+    display: inline-block;
+    width: 20px;
+    vertical-align: top;
+}
+.check-car{
+	font-size: 13px;
+}
+.check-car .weui-agree__checkbox{
+	border-color: #19a0f0;
+}
+.check-car .weui-agree__checkbox:checked:before{
+	color: #19a0f0;
+}
+.g-infos .weui-btn-area {
+    margin: 1.17647059em 3em .3em;
+}
+.g-infos .add{
+	font-size: 16px;
+	text-align: center;
+	
+}
+.g-infos .add a{
+	color: #19a0f0;
+}
+.g-infos .add img{
+	vertical-align: middle;
+}
+
+
+/*客服微信*/
+.code {
+	margin-bottom: 25px;
+	text-align: center;
+}
+.code .weui-cell{
+	padding: 3em 3em 25px;
+}
+.code p{
+	padding: 0 20px;
+	font-size: 14px;
+	color: #444;
+}
