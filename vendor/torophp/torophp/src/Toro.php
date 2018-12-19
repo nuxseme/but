@@ -21,7 +21,6 @@ class Toro
         
         $discovered_handler = null;
         $regex_matches = array();
-
         if (isset($routes[$path_info])) {
             $discovered_handler = $routes[$path_info];
         } elseif ($routes) {
@@ -50,7 +49,6 @@ class Toro
                 $handler_instance = $discovered_handler();
             }
         }
-
         if ($handler_instance) {
             unset($regex_matches[0]);
 

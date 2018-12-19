@@ -8,6 +8,7 @@ spl_autoload_register(
                 'class'    => 'file_path',
                 'index' => 'application/controller/Index.php',
                 'user' => 'application/controller/User.php',
+                'order' => 'application/controller/Order.php',
             ];
         }
         //处理映射关系
