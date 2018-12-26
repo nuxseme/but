@@ -7,6 +7,9 @@ class Mysql {
   private function __construct() { }
   private function __clone() { }
 
+    /**
+     * @return null|\PDO
+     */
   public static function getInstance() {
     if (null === self::$instance) {
       self::$instance = new \PDO('mysql:host=47.105.94.234;port=3306;dbname=but', 'root', '123456');;

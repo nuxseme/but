@@ -11,4 +11,5 @@ class User
         $query = MySQL::getInstance()->query("SELECT * FROM `order` ");
         print_r($query->fetchAll());
     }
+
 }
