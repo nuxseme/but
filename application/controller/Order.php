@@ -16,13 +16,8 @@ class Order
         $tel = $_POST['tel'];
         $weixin = $_POST['weixin'];
 
-        $order = new  \application\model\Order();
-        $order->setName($name);
-        $order->setTel($tel);
-        $order->setWeixin($weixin);
-
         $orderService = new  \application\service\OrderService((new \application\repository\OrderFileRepository()));
-        $orderService->save($order);
+        $orderService->createOrder($name,$tel,$weixin);
 
     }
 }

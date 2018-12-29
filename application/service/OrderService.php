@@ -16,4 +16,10 @@ class OrderService
     {
       $this->orderRepository->save($order);
     }
+
+    public function createOrder(string $name,string $tel,string $weixin)
+    {
+        $order = \application\model\Order::createNewFrom($name,$tel,$weixin);
+        return $this->orderRepository->save($order);
+    }
 }
